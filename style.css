@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header  , .section-1{
+    background-color: #967dc2b6;
+}
+
+.header nav a{
+    color: white;
+    opacity: 0.5;
+}
+
+.header nav a:hover{
+    opacity: 1;
+    color: white;
+}
+
+.section-1{
+    background-image: url(images/background-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-1 .sec-main .button{
+    display: flex;
+    justify-content: center;
+}
+
+.section-1 .sec-main button{
+    background-color: #4cdadd;
+}
